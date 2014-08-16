@@ -110,16 +110,16 @@ a:active {
   </tr>
   
   <tr>
-    <td height="32" align="center" valign="middle">&nbsp;</td>
-  </tr>
-  <tr>
-    <td height="54" align="center" valign="middle"><table width="430" border="0" cellspacing="0" cellpadding="0">
+    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF"><table width="302" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="140" height="31" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659" style="font-size: 16px; color: #666;" target="_blank">Bundle info</a></td>
-        <td width="161" align="center" valign="middle"><a href="https://github.com/MagicWorkers/Envato-Bundle-Live-Earnings" style="font-size: 16px; color: #666;" target="_blank">Github Project</a></td>
-        <td width="129" align="center" valign="middle"><a href="http://themeforest.net/user/MagicWorkers" style="font-size: 16px; color: #666;">MagicWorkers</a></td>
+        <td width="92" height="20" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659" style="font-size: 12px; color: #666;" target="_blank">Bundle info</a></td>
+        <td width="113" align="center" valign="middle"><a href="https://github.com/MagicWorkers/Envato-Bundle-Live-Earnings" style="font-size: 12px; color: #666;" target="_blank">Github Project</a></td>
+        <td width="97" align="center" valign="middle"><a href="http://themeforest.net/user/MagicWorkers" style="font-size: 12px; color: #666;">MagicWorkers</a></td>
       </tr>
     </table></td>
+  </tr>
+  <tr>
+    <td height="20" align="center" valign="middle">&nbsp;</td>
   </tr>
   
 </table>
