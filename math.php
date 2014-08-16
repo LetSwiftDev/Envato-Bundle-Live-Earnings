@@ -1,9 +1,34 @@
-
 <?php
+
+/*
+
+math.php
+Envato-Bundle-Live-Earnings
+Created 13.08.2014
+MagicWorkers
+
+
+Support
+-----------
+http://codecanyon.net/forums/thread/live-bundle-earnings-code-gift-from-magicworkers-/139131
+http://codecanyon.net/user/MagicWorkers
+support@magicworkers.com
+
+
+Usage 
+-----------
+
+1- Change your $html for bundle url.
+2- Edit Config Here Are Values
+3- Publish And Use Your bundle.php
+
+*/
+
+
 // example of how to use basic selector to retrieve HTML contents
 include('simple_html_dom.php');
 
-// get DOM from URL or file
+// get DOM from URL or file 
 $html = file_get_html('http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659');
 
 $totalsales = $html->find('.sidebar-stats__number', 0, 1)->plaintext;
