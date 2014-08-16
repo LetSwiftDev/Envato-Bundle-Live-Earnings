@@ -32,7 +32,7 @@ http://codecanyon.net/forums/thread/live-bundle-earnings-code-gift-from-magicwor
 
 # Support & Become A Developer
 
-Everythime you can contact with us.
+Everytime you can contact with us.
 support@magicworkers.com
 
 
