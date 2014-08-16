@@ -67,12 +67,41 @@ define('MAX_FILE_SIZE', 600000);
 // -----------------------------------------------------------------------------
 // get html dom from file
 // $maxlen is defined in the code as PHP_STREAM_COPY_ALL which is defined as -1.
+/**
+ * Return the content of an URL
+ *
+ * @param string $url
+ * @return string
+ */
+function url_get_contents($url){
+   if(function_exists('curl_init') && function_exists('curl_setopt') && function_exists('curl_exec') && function_exists('curl_exec')){
+     # Use cURL
+     $curl = curl_init($url);
+
+     curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+     curl_setopt($curl, CURLOPT_HEADER, 0);
+     curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5);
+     curl_setopt($curl, CURLOPT_TIMEOUT, 5);
+     if(stripos($url,'https:') !== false){
+         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+         curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 2);
+     }
+
+     $content = @curl_exec($curl);
+     curl_close($curl);
+   }else{
+     # Use FGC, because cURL is not supported
+     ini_set('default_socket_timeout',5);
+     $content = @file_get_contents($url);
+   }
+   return $content;
+}
 function file_get_html($url, $use_include_path = false, $context=null, $offset = -1, $maxLen=-1, $lowercase = true, $forceTagsClosed=true, $target_charset = DEFAULT_TARGET_CHARSET, $stripRN=true, $defaultBRText=DEFAULT_BR_TEXT, $defaultSpanText=DEFAULT_SPAN_TEXT)
 {
     // We DO force the tags to be terminated.
     $dom = new simple_html_dom(null, $lowercase, $forceTagsClosed, $target_charset, $stripRN, $defaultBRText, $defaultSpanText);
     // For sourceforge users: uncomment the next line and comment the retreive_url_contents line 2 lines down if it is not already done.
-    $contents = file_get_contents($url, $use_include_path, $context, $offset);
+    $contents = url_get_contents($url, $use_include_path, $context, $offset);
     // Paperg - use our own mechanism for getting the contents as we want to control the timeout.
     //$contents = retrieve_url_contents($url);
     if (empty($contents) || strlen($contents) > MAX_FILE_SIZE)
