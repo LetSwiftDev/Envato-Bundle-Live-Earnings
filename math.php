@@ -67,32 +67,59 @@ $expected_sales_count_math_value = number_format($expected_earnings, 2);
 $expected_sales_count = ($expected_sales_count_math_value) / ($expected_sales_count_math);
 
  ?>
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
 
-<table width="100%" height="280" border="0" align="center" cellpadding="0" cellspacing="0">
+
+<table width="100%" height="443" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF" style="font-size: 16px; color: #333;">Envato Bundle's Live Sales And - Earnings Page - Free</td>
+    <td height="63" align="center" valign="middle" bgcolor="#FFFFFF" style="font-size: 16px; color: #333;"><img src="envato.png" width="181" height="57"  alt=""/></td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#EFEFEF" style="font-size: 16px; color: #333;">Total Sales</td>
+    <td height="42" align="center" valign="middle" bgcolor="#e58a3b" style="font-size: 16px; color: #fff;">Bundle Live Earnings </td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF"><? echo $totalsales; ?></td>
+    <td height="42" align="center" valign="middle" bgcolor="#fff" style="font-size: 16px; color: #333;">Total Sales</td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#EFEFEF"><span style="font-size: 16px; color: #333;">Your Earnings</span></td>
+    <td height="42" align="center" valign="middle" bgcolor="#1b87c8" style="color: #fff;"><? echo $totalsales; ?></td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF" style="color: #0C6">&dollar;<? echo number_format($yourearning, 2); ?></td>
+    <td height="42" align="center" valign="middle" bgcolor="#fff"><span style="font-size: 16px; color: #333;">Your Earnings</span></td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#EFEFEF"><span style="font-size: 16px; color: #333;">Expected Earnings</span></td>
+    <td height="42" align="center" valign="middle" bgcolor="#81b441" style="color: #fff">&dollar;<? echo number_format($yourearning, 2); ?></td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF" style="color: #4C908E"> <? echo ("$expected_sales_count"); ?> Item Sales -  &dollar;<? echo number_format($expected_earnings, 2); ?></td>
+    <td height="42" align="center" valign="middle" bgcolor="#fff"><span style="font-size: 16px; color: #333;">Expected Earnings</span></td>
+  </tr>
+  <tr>
+    <td height="42" align="center" valign="middle" bgcolor="#d43d3c" style="color: #fff"> <? echo ("$expected_sales_count"); ?> Item Sales -  &dollar;<? echo number_format($expected_earnings, 2); ?></td>
   </tr>
   
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#D8D8D8"><span style="font-size: 16px; color: #333;"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659" style="font-size: 16px; color: #333;" target="_blank">Bundle info</a> - <a href="http://themeforest.net/user/MagicWorkers" style="font-size: 16px; color: #333;">MagicWorkers</a></span></td>
+    <td height="32" align="center" valign="middle">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="54" align="center" valign="middle"><table width="430" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="140" height="31" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659" style="font-size: 16px; color: #666;" target="_blank">Bundle info</a></td>
+        <td width="161" align="center" valign="middle"><a href="https://github.com/MagicWorkers/Envato-Bundle-Live-Earnings" style="font-size: 16px; color: #666;" target="_blank">Github Project</a></td>
+        <td width="129" align="center" valign="middle"><a href="http://themeforest.net/user/MagicWorkers" style="font-size: 16px; color: #666;">MagicWorkers</a></td>
+      </tr>
+    </table></td>
   </tr>
   
 </table>
