@@ -25,7 +25,7 @@ Dont change anything here ! Edit only math.php
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Envato - Bundle Sales - Live Earning</title>
+<title>Envato - Bundle Sales - Live Earnings</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="flipclock.min.js"></script>
 <link href="flipclock.css" rel="stylesheet" type="text/css" />
@@ -70,7 +70,9 @@ body,td,th {
 }
 body {
 	background-color: #D8D8D8;
-	text-align:center;margin:0 auto;
+	text-align: center;
+	margin: 0 auto;
+	background-image: url(bg.png);
 }
 #liveclock {
 	width:700px;
@@ -82,8 +84,9 @@ body {
 }
 </style>
 </head>
-<body>
-<div id="results">Loading ...</div>
+<body><center>
+<div id="results"><br><br> <img src="loading.png" border="0"><br></div>
 <div id="liveclock"><div class="clock"></div></div>
+</center>
 </body>
 </html>
