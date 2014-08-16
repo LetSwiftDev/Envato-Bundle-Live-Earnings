@@ -106,7 +106,7 @@ a:active {
     <td height="42" align="center" valign="middle" bgcolor="#fff"><span style="font-size: 16px; color: #333;">Expected Earnings</span></td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#d43d3c" style="color: #fff"> <? echo ("$expected_sales_count"); ?> Item Sales -  &dollar;<? echo number_format($expected_earnings, 2); ?></td>
+    <td height="42" align="center" valign="middle" bgcolor="#d43d3c" style="color: #fff"> <? echo ("$expected_sales_count"); ?> Item Sales -  About &dollar;<? echo number_format($expected_earnings, 2); ?></td>
   </tr>
   
   <tr>
