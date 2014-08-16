@@ -70,14 +70,12 @@ body,td,th {
 }
 body {
 	background-color: #D8D8D8;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
+	text-align:center;margin:0 auto;
 }
 #liveclock {
-    width:700px;
-    text-align:center;margin:0 auto;
+	width:700px;
+	text-align:center;
+	margin:0 auto;
 }
 #results {
 	margin-bottom:40px;
