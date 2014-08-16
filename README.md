@@ -1,4 +1,4 @@
 Envato-Bundle-Live-Earnings
 ===========================
 
-You can see your envato bundle live earnings free.
+Find out how much you're earning from an Envato Market bundle, with live updating.
