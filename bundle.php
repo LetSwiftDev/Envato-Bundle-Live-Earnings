@@ -1,4 +1,27 @@
-<!doctype html>
+<?
+
+/*
+
+bundle.php
+Envato-Bundle-Live-Earnings
+Created 13.08.2014
+MagicWorkers
+
+
+Support
+-----------
+http://codecanyon.net/forums/thread/live-bundle-earnings-code-gift-from-magicworkers-/139131
+http://codecanyon.net/user/MagicWorkers
+support@magicworkers.com
+
+
+Dont change anything here ! Edit only math.php
+
+*/
+
+
+
+?><!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
