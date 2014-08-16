@@ -34,6 +34,13 @@ $expected_earnings = 0;
 $percentage_time = (time() - $bundle_start_time)/$bundle_length;
 $expected_earnings = $yourearning / $percentage_time;
 
+
+// Expected Sales Count
+$expected_sales_count_value = number_format($yourearning, 2);
+$expected_sales_count_math = ($expected_sales_count_value) / ($totalsales);
+$expected_sales_count_math_value = number_format($expected_earnings, 2);
+$expected_sales_count = ($expected_sales_count_math_value) / ($expected_sales_count_math);
+
  ?>
 
 <table width="100%" height="280" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -56,7 +63,7 @@ $expected_earnings = $yourearning / $percentage_time;
     <td height="42" align="center" valign="middle" bgcolor="#EFEFEF"><span style="font-size: 16px; color: #333;">Expected Earnings</span></td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF" style="color: #4C908E">&dollar;<? echo number_format($expected_earnings, 2); ?></td>
+    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF" style="color: #4C908E"> <? echo ("$expected_sales_count"); ?> Item Sales -  &dollar;<? echo number_format($expected_earnings, 2); ?></td>
   </tr>
   
   <tr>
