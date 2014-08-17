@@ -61,10 +61,7 @@ $expected_earnings = $yourearning / $percentage_time;
 
 
 // Expected Sales Count
-$expected_sales_count_value = number_format($yourearning, 2);
-$expected_sales_count_math = ($expected_sales_count_value) / ($totalsales);
-$expected_sales_count_math_value = number_format($expected_earnings, 2);
-$expected_sales_count = ($expected_sales_count_math_value) / ($expected_sales_count_math);
+$expected_sales_count = $totalsales / $percentage_time;
 
  ?>
 <style type="text/css">
@@ -106,7 +103,7 @@ a:active {
     <td height="42" align="center" valign="middle" bgcolor="#fff"><span style="font-size: 16px; color: #333;">Expected Earnings</span></td>
   </tr>
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#d43d3c" style="color: #fff"> <? echo ("$expected_sales_count"); ?> Item Sales -  About &dollar;<? echo number_format($expected_earnings, 2); ?></td>
+    <td height="42" align="center" valign="middle" bgcolor="#d43d3c" style="color: #fff"> <? echo round($expected_sales_count); ?> Item Sales -  About &dollar;<? echo number_format($expected_earnings, 2); ?></td>
   </tr>
   
   <tr>
