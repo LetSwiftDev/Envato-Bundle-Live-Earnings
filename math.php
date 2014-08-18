@@ -38,7 +38,7 @@ $totalsales = str_replace(array(','), '' , $totalsales);
 // CONFIG HERE
 $itemprice = "18.00";   		 // YOUR BUNDLE ITEM PRICE
 $bundleprice = "30.00"; 		 // BUNDLE PRICE
-$bundletotalprice = "1000.00";	 // BUNDLE TOTAL PRICE
+$bundletotalprice = "1093.00";	 // BUNDLE TOTAL PRICE WRITE TOTAL ITEM PRICES
 $bundle_start_time = strtotime('13 August 2014 4:00am'); // BUNDLE START TIME
 $bundle_length = 60*60*24*7; // BUNDLE LENGTH
 
