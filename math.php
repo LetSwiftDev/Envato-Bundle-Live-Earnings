@@ -60,8 +60,11 @@ $percentage_time = (time() - $bundle_start_time)/$bundle_length;
 $expected_earnings = $yourearning / $percentage_time;
 
 
-// Expected Sales Count !
-$expected_sales_count = $totalsales / $percentage_time;
+
+// Expected Sales Count 
+$mathcount = ($yourearning) / ($totalsales);
+$expected_sales_count = ($expected_earnings) / ($mathcount);
+$expected_sales_count = ceil($expected_sales_count);
 
  ?>
 <style type="text/css">
