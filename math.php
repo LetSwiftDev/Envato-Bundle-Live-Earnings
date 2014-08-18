@@ -110,11 +110,14 @@ a:active {
   </tr>
   
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF"><table width="302" border="0" cellspacing="0" cellpadding="0">
+    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF"><table width="358" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="92" height="20" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659" style="font-size: 12px; color: #666;" target="_blank">Bundle info</a></td>
-        <td width="113" align="center" valign="middle"><a href="https://github.com/MagicWorkers/Envato-Bundle-Live-Earnings" style="font-size: 12px; color: #666;" target="_blank">Github Project</a></td>
-        <td width="97" align="center" valign="middle"><a href="http://themeforest.net/user/MagicWorkers" style="font-size: 12px; color: #666;">MagicWorkers</a></td>
+        <td width="29" height="20" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659"><img src="bundle.png" width="16" height="16"  alt=""/></a></td>
+        <td width="78" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659" style="font-size: 12px; color: #666;" target="_blank">Bundle info</a></td>
+        <td width="29" align="center" valign="middle"><a href="https://github.com/MagicWorkers/Envato-Bundle-Live-Earnings"><img src="github.png" width="16" height="13"  alt=""/></a></td>
+        <td width="93" align="center" valign="middle"><a href="https://github.com/MagicWorkers/Envato-Bundle-Live-Earnings" style="font-size: 12px; color: #666;" target="_blank">Github Project</a></td>
+        <td width="29" align="center" valign="middle"><a href="http://themeforest.net/user/MagicWorkers"><img src="magicworkers.png" width="16" height="16"  alt=""/></a></td>
+        <td width="102" align="center" valign="middle"><a href="http://themeforest.net/user/MagicWorkers" style="font-size: 12px; color: #666;">MagicWorkers</a></td>
       </tr>
     </table></td>
   </tr>
