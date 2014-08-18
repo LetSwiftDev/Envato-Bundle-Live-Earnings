@@ -60,7 +60,7 @@ $percentage_time = (time() - $bundle_start_time)/$bundle_length;
 $expected_earnings = $yourearning / $percentage_time;
 
 
-// Expected Sales Count
+// Expected Sales Count !
 $expected_sales_count = $totalsales / $percentage_time;
 
  ?>
