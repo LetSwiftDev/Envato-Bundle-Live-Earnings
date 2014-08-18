@@ -75,9 +75,9 @@ body {
 	background-image: url(bg.png);
 }
 #liveclock {
-	width:700px;
+	width:485px;
 	text-align:center;
-	margin:0 auto;
+	
 }
 #results {
 	margin-bottom:40px;
@@ -86,7 +86,11 @@ body {
 </head>
 <body><center>
 <div id="results"><br><br> <img src="loading.png" border="0"><br></div>
-<div id="liveclock"><div class="clock"></div></div>
+<table width="400" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="middle"><div id="liveclock"><div class="clock"></div></div></td>
+  </tr>
+</table>
 </center>
 </body>
 </html>
