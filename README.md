@@ -20,4 +20,6 @@ http://codecanyon.net/user/SamBerson
 
 ## Forum
 
-You can ask everything here: http://codecanyon.net/forums/thread/live-bundle-earnings-code-gift-from-magicworkers-/139131
+You can ask everything here:
+
+http://codecanyon.net/forums/thread/live-bundle-earnings-code-gift-from-magicworkers-/139131
