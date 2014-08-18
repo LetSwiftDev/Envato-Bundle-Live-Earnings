@@ -72,7 +72,7 @@ body {
 	background-color: #D8D8D8;
 	text-align: center;
 	margin: 0 auto;
-	background-image: url(http://www.magicworkers.com/bundle/bg.png);
+	background-image: url(bg.png);
 }
 #liveclock {
 	width:700px;
@@ -85,7 +85,7 @@ body {
 </style>
 </head>
 <body><center>
-<div id="results"><br><br> <img src="http://www.magicworkers.com/bundle/loading.png" border="0"><br></div>
+<div id="results"><br><br> <img src="loading.png" border="0"><br></div>
 <div id="liveclock"><div class="clock"></div></div>
 </center>
 </body>

@@ -85,7 +85,7 @@ a:active {
 
 <table width="100%" height="443" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
-    <td height="63" align="center" valign="middle" bgcolor="#FFFFFF" style="font-size: 16px; color: #333;"><img src="http://www.magicworkers.com/bundle/envato.png" width="181" height="57"  alt=""/></td>
+    <td height="63" align="center" valign="middle" bgcolor="#FFFFFF" style="font-size: 16px; color: #333;"><img src="envato.png" width="181" height="57"  alt=""/></td>
   </tr>
   <tr>
     <td height="42" align="center" valign="middle" bgcolor="#e58a3b" style="font-size: 16px; color: #fff;">Bundle Live Earnings </td>
