@@ -110,7 +110,7 @@ a:active {
   </tr>
   
   <tr>
-    <td height="42" align="center" valign="middle" bgcolor="#FFFFFF"><table width="358" border="0" cellspacing="0" cellpadding="0">
+    <td height="40" align="center" valign="middle" background="bg_under.png"><table width="358" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="29" height="16" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659"><img src="bundle.png" width="16" height="16"  alt=""/></a></td>
         <td width="78" align="center" valign="middle"><a href="http://themeforest.net/item/the-envato-market-bundle-is-on-for-1-week/8468659" style="font-size: 12px; color: #666;" target="_blank">Bundle info</a></td>
