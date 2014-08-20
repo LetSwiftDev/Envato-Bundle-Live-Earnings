@@ -62,9 +62,19 @@ $expected_earnings = $yourearning / $percentage_time;
 
 
 // Expected Sales Count 
+
+if($totalsales>1){
+
 $mathcount = ($yourearning) / ($totalsales);
 $expected_sales_count = ($expected_earnings) / ($mathcount);
 $expected_sales_count = ceil($expected_sales_count);
+
+}else{
+	
+echo  "Your bundle link wrong , or your bundle has been finished";	
+	
+}
+
 
  ?>
 <style type="text/css">
