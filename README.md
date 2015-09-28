@@ -11,8 +11,8 @@ http://codecanyon.net/user/MagicWorkers
 
 ## Developers
 
-ceasar
-http://codecanyon.net/user/ceasar
+caesar
+http://codecanyon.net/user/caesar
 
 SamBerson
 http://codecanyon.net/user/SamBerson
